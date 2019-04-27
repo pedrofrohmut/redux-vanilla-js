@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Redux Vanilla JS</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto mt-4">
+
+        <!--Form-->
+        <h1>Add Todo</h1>
+        <form id="todo-form"> 
+          <div class="form-group">
+            <label>TODO:</label>
+            <input type="text" id="todo-text" class="form-control" placeholder="TODO Text">
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Submit">
+          </div>
+        </form>
+
+        <!--List-->
+        <ul id="todos-list" class="list-group"></ul>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/redux@4.0.1/dist/redux.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
